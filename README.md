@@ -100,3 +100,21 @@ public class OnlineBookstore {
 }
 
 
+
+```
+
+## 🧪 Test and Run the Application
+
+- 🏗️ **Compile all Java files** and run the `OnlineBookstore.java` file.  
+- 👨‍💼 **Admin Module:** Log in as an administrator to add, view, update, or delete books.  
+- 👩‍💻 **Customer Module:** Log in as a customer to browse, search, and purchase books.  
+- 💾 **Verify data updates** are correctly saved in the text files after every operation.  
+- ⚠️ **Test for invalid inputs** to ensure the program handles errors gracefully without crashing.  
+
+```java
+// File: TestBookstore.java
+
+
+
+
+
