@@ -75,7 +75,7 @@ The **Online Bookstore Management System** is designed to benefit the following 
 - **Input Devices:** Standard keyboard and mouse
 
 
-### ⚙️ Step-by-Step Implementation 
+## ⚙️ Step by Step Implementation
 
 ---
 
