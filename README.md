@@ -78,11 +78,4 @@ The **Online Bookstore Management System** is designed to benefit the following 
 
 ## 🚀 Getting Started
 
-Follow the steps below to set up and run the **Online Bookstore Management System** on your local machine.
-
-### 🖥️ Prerequisites
-Ensure you have the following installed:
-- Java Development Kit (**JDK 8** or above)
-- Any Java IDE (e.g., **Eclipse**, **IntelliJ IDEA**, **NetBeans**) — or use a simple text editor like **VS Code** or **Notepad**
-- Basic command-line or IDE knowledge
 
