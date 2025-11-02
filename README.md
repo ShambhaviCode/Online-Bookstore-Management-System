@@ -89,5 +89,5 @@ Ensure you have the following installed:
 ### ⚙️ Installation Steps
 1. 📂 **Clone or download** this repository.  
    ```bash
-   git clone https://github.com/ShambhaviCode
-/OnlineBookstore.git
+   git clone
+ https://github.com/ShambhaviCode/OnlineBookstore.git
