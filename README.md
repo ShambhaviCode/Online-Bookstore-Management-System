@@ -75,11 +75,11 @@ The **Online Bookstore Management System** is designed to benefit the following 
 - **Input Devices:** Standard keyboard and mouse
 
 
-### ⭐️ Step by Step Implementation
 
 
 
-###  Step 1: Create the Project
+
+### Creating the Project
 
 - 🖥️ Open your preferred Java IDE such as **Eclipse**, **IntelliJ IDEA**, **NetBeans**, or even a simple text editor like **Notepad**.  
 - 📁 Create a new Java project named **OnlineBookstore**.  
@@ -97,5 +97,25 @@ public class OnlineBookstore {
         System.out.println("Welcome to the Online Bookstore!");
         // Entry point of the application
         // Future steps will add more functionality here
+    }
+}
+
+---
+
+### 🧪 Test and Run the Application
+
+- 🏗️ **Compile** all the Java files and run the `OnlineBookstore.java` file.  
+- 👨‍💼 **Test the Admin Module** by logging in as an administrator and performing operations such as adding, viewing, and deleting books.  
+- 👩‍💻 **Test the Customer Module** by logging in as a customer and checking functionalities like viewing, searching, and purchasing books.  
+- 💾 **Verify data updates** are correctly reflected in the text files after each operation.  
+- ⚠️ **Check for invalid inputs** to ensure the program handles errors smoothly without crashing.  
+
+```java
+// Step 8: Testing the Application
+public class TestBookstore {
+    public static void main(String[] args) {
+        OnlineBookstore.loadBooks();  // Load data from file
+        OnlineBookstore.main(null);   // Run main menu
+        OnlineBookstore.saveBooks();  // Save data after exit
     }
 }
