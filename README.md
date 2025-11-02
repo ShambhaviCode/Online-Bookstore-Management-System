@@ -1,6 +1,6 @@
 # 📚 Online Bookstore Management System
 
-# 📖 Overview
+## 📖 Overview
 
 The **Online Bookstore Management System** is a console-based application developed using pure **Core Java** concepts such as:
 
