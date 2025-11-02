@@ -86,8 +86,3 @@ Ensure you have the following installed:
 - Any Java IDE (e.g., **Eclipse**, **IntelliJ IDEA**, **NetBeans**) — or use a simple text editor like **VS Code** or **Notepad**
 - Basic command-line or IDE knowledge
 
-### ⚙️ Installation Steps
-1. 📂 **Clone or download** this repository.  
-   ```bash
-   git clone
- https://github.com/ShambhaviCode/OnlineBookstore.git
