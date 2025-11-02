@@ -1,75 +1,101 @@
-## 📚 Online Bookstore 
+# 📘 Online Bookstore Management System
 
-### 📖 Overview
-
-The **Online Bookstore Management System** is a console-based application developed using pure **Core Java** concepts such as:
-
-- Object-Oriented Programming (OOP)
-- Collections Framework
-- File Handling
-
-This system simulates an online platform where users can **browse, purchase, and manage books** without relying on any external frameworks or databases.
-
-It provides an automated solution to efficiently manage:
-
-- Book inventory  
-- User registration  
-- Sales records  
-
-Serving as a **mini e-commerce platform** built entirely in Java, it demonstrates how fundamental programming principles can be applied to design a complete and efficient management system.
+A console-based application built using **Core Java** concepts such as **OOP**, **Collections**, and **File Handling**.  
+It simulates an online platform where users can browse, purchase, and manage books — without relying on external frameworks or databases.  
+This project demonstrates how fundamental Java principles can be used to design a complete management system.
 
 ---
 
-### 🎯 Objectives
+## 🎯 Objectives
 
-The main objectives of the **Online Bookstore Management System** are:
-
-- To automate the process of book selling and inventory management.  
-- To demonstrate the use of **Core Java** features in developing a functional console-based application.  
-- To ensure **data persistence** using file handling techniques.  
-- To design a simple and user-friendly interface for both administrators and customers.
+- Automate the process of book selling and inventory management.  
+- Demonstrate the use of **Core Java** in developing a console-based application.  
+- Ensure data persistence using **File Handling** techniques.  
+- Design a simple and user-friendly interface for both administrators and customers.
 
 ---
 
-### 🧩 Problem Statement
+## ⚠️ Problem Statement
 
-In traditional bookstores, managing book inventory, tracking sales, and handling customer records manually can be **time-consuming** and **error-prone**.  
-As the number of books and customers increases, maintaining accurate records becomes more challenging.
+In traditional bookstores, managing book inventory, tracking sales, and handling customer records manually can be time-consuming and error-prone.  
+As the number of books and customers increases, maintaining accurate records becomes increasingly difficult.  
 
-The **Online Bookstore Management System** addresses these issues by providing a **computerized solution** that automates:
-
-- Book management  
-- Sales tracking  
-- Customer operations  
-
-This system ensures faster processing, improved accuracy, and easier access to information — all within a simple console-based Java application.
+The **Online Bookstore Management System** overcomes these challenges by automating book management, sales tracking, and customer operations — ensuring faster processing, improved accuracy, and easier access to information within a simple console-based Java application.
 
 ---
 
-### 👥 Intended Beneficiaries
+## 👥 Intended Beneficiaries
 
-The **Online Bookstore Management System** is designed to benefit the following users:
-
-- **Administrators:** Easily manage book inventory, update stock, and track sales without manual effort.  
-- **Customers:** Browse, search, and purchase books conveniently through a simple console interface.  
-- **Bookstore Owners:** Maintain accurate records of books and transactions, improving efficiency and reducing errors.
+- 👨‍💼 **Administrators:** Manage book inventory, update stock, and track sales efficiently.  
+- 👩‍💻 **Customers:** Browse, search, and purchase books easily via a console interface.  
+- 🏪 **Bookstore Owners:** Maintain accurate records of transactions, improving efficiency and reducing errors.
 
 ---
+
+## 🧰 System Requirements
 
 ### 💻 Software Requirements
-
 - **Operating System:** Windows / macOS / Linux  
 - **Programming Language:** Java (Core Java)  
 - **JDK Version:** JDK 8 or above  
 - **IDE (Optional):** IntelliJ IDEA / Eclipse / NetBeans / VS Code  
 - **Storage:** File Handling (Text Files for Data Persistence)
 
----
-
 ### ⚙️ Hardware Requirements
-
 - **Processor:** Intel Core i3 or higher  
 - **RAM:** Minimum 2 GB (4 GB recommended)  
 - **Hard Disk:** Minimum 100 MB of free space  
 - **Display:** 1024 × 768 resolution or higher  
-- **Input Devices:** Standard keyboard and mouse .
+- **Input Devices:** Standard keyboard and mouse
+
+---
+
+## ✨ Features
+
+- 👨‍💼 **Administrator Module:** Add, update, delete, and view books.  
+- 👩‍💻 **Customer Module:** Register, log in, browse books, add to cart, and purchase.  
+- 💾 **File Handling:** Ensures data persistence without databases.  
+- 🧩 **OOP Design:** Demonstrates encapsulation, abstraction, and modular programming principles.  
+
+---
+
+## 🏗️ Creating the Project
+
+- 🖥️ Open your preferred Java IDE such as **Eclipse**, **IntelliJ IDEA**, **NetBeans**, or even a text editor like **Notepad**.  
+- 📁 Create a new Java project named **OnlineBookstore**.  
+- 📦 Inside the project, create a package named **com.bookstore** (optional if not using an IDE).  
+- 📄 Add a new Java class file named **OnlineBookstore.java**.  
+- 🚀 Set up the `main()` method to serve as the entry point of the program.
+
+```java
+// File: OnlineBookstore.java
+package com.bookstore;
+
+public class OnlineBookstore {
+    public static void main(String[] args) {
+        System.out.println("Welcome to the Online Bookstore!");
+        // Entry point of the application
+        // Future functionality will be added here
+    }
+}
+
+
+---
+
+## 🧪 Test and Run the Application
+
+- 🏗️ **Compile all Java files** and run the `OnlineBookstore.java` file.  
+- 👨‍💼 **Admin Module:** Log in as an administrator to add, view, update, or delete books.  
+- 👩‍💻 **Customer Module:** Log in as a customer to browse, search, and purchase books.  
+- 💾 **Verify data updates** are correctly saved in the text files after every operation.  
+- ⚠️ **Test for invalid inputs** to ensure the program handles errors gracefully without crashing.  
+
+```java
+// File: TestBookstore.java
+public class TestBookstore {
+    public static void main(String[] args) {
+        OnlineBookstore.loadBooks();  // Load data from file
+        OnlineBookstore.main(null);   // Run main menu
+        OnlineBookstore.saveBooks();  // Save data after exit
+    }
+}
