@@ -128,4 +128,7 @@ public class TestBookstore {
 
 The **Online Bookstore Management System** successfully automates the major operations of a traditional bookstore. It provides an efficient way for administrators to manage books and for customers to search and purchase them easily. The use of **Java** and **file handling** ensures reliable performance and data persistence.  The project not only reduces manual work and errors but also enhances the overall user experience through a simple, menu-driven interface. It can be further improved by integrating a **database** and a **graphical interface** in future versions.
 
+🧷 License
+
+MIT License © 2025 Shambhavi
 
